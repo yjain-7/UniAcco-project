@@ -1,0 +1,21 @@
+name,age,sex,height
+Person 20,19,Female,1.57
+Person 8,23,Female,1.65
+Person 9,25,Male,1.83
+Person 11,25,Male,1.56
+Person 5,28,Male,1.64
+Person 13,28,Male,1.88
+Person 17,29,Female,1.84
+Person 6,44,Female,1.65
+Person 12,44,Female,1.78
+Person 2,46,Female,1.73
+Person 4,49,Male,1.79
+Person 14,50,Male,1.7
+Person 18,50,Female,1.92
+Person 16,52,Male,1.73
+Person 3,57,Male,1.64
+Person 1,58,Female,1.77
+Person 15,58,Male,1.96
+Person 7,61,Female,1.84
+Person 10,63,Female,1.8
+Person 19,65,Male,1.51

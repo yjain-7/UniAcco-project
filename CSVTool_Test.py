@@ -35,5 +35,9 @@ class TestCSVTool(unittest.TestCase):
         self.assertEqual(len(filtered_value), 1)
         self.assertEqual(filtered_value,[{'name': 'Alice', 'age': '25', 'gender': 'F'}])
 
+    def test_std_dev(self):
+        self.tool.load(self.file)
+        self.assertEqual(int(self.tool.std_dev('age')), 4)
+
 if __name__ == '__main__':
     unittest.main()

@@ -11,6 +11,9 @@ After running the command, you will see a > prompt in the command-line interface
 - count: Count the number of rows in the currently loaded CSV file.<br>
 - mean <column>: Calculate the mean of a numeric column in the currently loaded CSV file.<br>
 - filter <column> <value>: Filter the currently loaded CSV file to include only rows where the specified column matches the specified value. <br>
+- sort <column>: Sort the currently loaded CSV file where the specified column passed
+- std_dev <column> : Calculated the standard deviation for the specified column
+- print : prints the whole data in the form of list of dictionary
 - exit: Exit the program.<br>
 For example, if you wanted to calculate the mean of the "Age" column, you would enter the command mean Age at the > prompt. The program will then output the mean value to the console.
 
@@ -30,6 +33,18 @@ For example, if you wanted to calculate the mean of the "Age" column, you would 
 <pre><code> >filter column_name value
 </code></pre>
 
+- Sort
+<pre><code> >sort column_name
+</code></pre>
+
+- Standard Deviation
+<pre><code> >std_dev
+</code></pre>
+
+- Pring
+<pre><code> >print
+</code></pre>
+  
 - Exit
 <pre><code> >exit
 </code></pre>

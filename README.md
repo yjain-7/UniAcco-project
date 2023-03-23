@@ -1,5 +1,5 @@
 # UniAcco-project
-Command-line-tool that can parse CSV file in python
+Command-line-tool that can parse CSV file using Python
 
 1. Open a command-line interface
 2. Navigate to the directory containing the CSVTool.py file

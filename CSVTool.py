@@ -1,6 +1,5 @@
 import csv
 import argparse
-import pandas as pd
 
 class CSVTool:
     def __init__(self):
